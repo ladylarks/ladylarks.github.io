@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }} - The Lady Larks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+        <script src="../../assets/js/html5shiv.js"></script>
+        <script src="../../assets/js/respond.min.js"></script>
+      <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Oregano:400italic' rel='stylesheet' type='text/css'>
+  <style>
+    body { 
+      background-color: #524F3F;
+      font-size: 150%;
+    }
+    div.header {
+      background-color: #C7C4AD;
+      margin-bottom: 1em;
+    }
+    div.header div {
+      text-align: center;
+    }
+    div.container {
+      background-color: white;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      color: #524F3F;
+      font-family: "Oregano";
+      font-style: italic;
+    }
+    h1 { font-size: 400% }
+    h2 { font-size: 300% }
+    h2 { font-size: 200% }
+    .nodec {
+      list-style: none;
+      padding-left: 1em;
+    }
+    .nodec li {
+      font-size: 85%
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="row header">
+    <div class="col-lg-12">
+      <h1>The Lady Larks</h1>
+    </div>
+  </div>
+
+  {{ content }}
+</div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="//code.jquery.com/jquery.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
